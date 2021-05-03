@@ -1,3 +1,37 @@
+/* all paragraph text is red  */
 p {
   color: red;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+/* All headers are green */
+h1  {
+  color:
+   #194C14;
+   text-transform: uppercase;
+   margin: 20px;
+   padding: 40px;
+   border-style: dashed;
+   border-width: 5px;
+   border color: red;
+}
+/* Both h1 and h2 are colored */
+h1, h2 {
+  background-color: #888888;
+}
+h2 {
+  text-decoration: underline;
+}
+/* Targets all changes the font */
+* {
+  font-family: sans-serif;
+}
+/* ID selectors: border and solid and black */
+#intro {
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+}
+.spotlight {
+  backgound-color: #FEFE22;
 }
